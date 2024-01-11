@@ -1,2 +1,29 @@
 <!-- your html code here -->
-<p>Hello, I'm contact.html</p>
+<div class="contactCard bg-light pb-5 container-fluid">
+    <h1>Contact</h1>
+    <p>Donec ullamcorper nulla non mets auctor fingilla. Vestibulum id ligula porta felis
+        euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. 
+        Fusce dapibus, tellus ac cursus commodo. 
+    </p>
+    <div class="contactDetails container py-4 pe-4 border border-color-secondary bg-body-secondary rounded-1 col-9">
+        <div class="emailSection row">
+            <fieldset class="col-3 text-end pt-2">
+                <label class="form-label fw-bold" for="formEmail">Your E-mail</label>
+            </fieldset>
+            <fieldset class="col-9">
+                <input type="email" id="formEmail" class="form-control" placeholder="Your email">
+            </fieldset>
+        </div>
+        <div class="messageSection row mt-3">
+            <fieldset class="col-3 text-end pt-2">
+                <label class="form-label fw-bold" for="formMessage">Your message</label>
+            </fieldset>
+            <fieldset class="col-9">
+                <textarea id="formMessage" class="form-control" placeholder="Please enter your message here..." rows="4"></textarea>
+            </fieldset>
+        </div>
+        <div class="submitButton d-flex justify-content-end mt-3">
+            <button type="button" class="btn btn-primary">Submit</button>
+        </div>
+    </div>
+</div>
