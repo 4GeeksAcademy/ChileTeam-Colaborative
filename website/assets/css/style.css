@@ -1,3 +1,28 @@
 body{
     background: #BDBDBD;
 }
+
+.grey-letter {
+    color: grey;
+}
+
+.col-md-8 {
+    height: 400px;
+}
+.card-body {
+    width: 650px;
+    justify-content: center;
+    margin: auto;
+    margin-top: 20px;
+    margin-right: 25px;
+    margin-left: 100px;
+}
+
+.imagen-calvo {
+    align-items: center;
+    justify-content: center;
+    
+}
+.img-fluid {
+    max-width: 80%;
+}
