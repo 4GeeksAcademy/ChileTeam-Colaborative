@@ -1,3 +1,38 @@
 body{
-    background: #BDBDBD;
+    background: white;
 }
+h1{ 
+    color: grey; 
+}
+span{ 
+    color: black;
+}
+
+#img2 {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    
+}
+.heading2 {
+    width: 800px;
+}
+
+.text2 {
+    width: 800px; 
+}
+
+.group2 {
+    width: 850px;
+    display:inline-block;
+    padding: 20px;
+}
+.containerimg {
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+
+
