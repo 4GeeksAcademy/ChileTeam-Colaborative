@@ -17,19 +17,29 @@ body{
     width: 200px;
     height: 200px;
     border-radius: 50%;
-    margin-top: 10px;
+    /* margin-top: 10px; */
 }
 .grey-letter {
     color: grey;
 }
 
 
-/* .heading2 {
+
+.greycolor {
+    color: grey;
+}
+span{ 
+    color: black;
+}
+
+.heading2 {
     width: 800px;
 }
+
 .text2 {
-    width: 800px;
+    width: 800px; 
 }
+
 .group2 {
     width: 850px;
     display:inline-block;
@@ -37,5 +47,6 @@ body{
 }
 .containerimg {
     display: flex;
-    justify-content: rigth;
-} */
+    justify-content: center;
+    
+}
