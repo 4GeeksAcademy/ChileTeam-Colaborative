@@ -1,28 +1,41 @@
 body{
-    background: #BDBDBD;
+    background: white
+}
+.main-div {
+    display: flex;
+
 }
 
+.container {
+    margin-left: 50px;
+}
+.container-img {
+    display: inline-block;
+    margin-right: 160px;
+}
+#img2 {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-top: 10px;
+}
 .grey-letter {
     color: grey;
 }
 
-.col-md-8 {
-    height: 400px;
-}
-.card-body {
-    width: 650px;
-    justify-content: center;
-    margin: auto;
-    margin-top: 20px;
-    margin-right: 25px;
-    margin-left: 100px;
-}
 
-.imagen-calvo {
-    align-items: center;
-    justify-content: center;
-    
+/* .heading2 {
+    width: 800px;
 }
-.img-fluid {
-    max-width: 80%;
+.text2 {
+    width: 800px;
 }
+.group2 {
+    width: 850px;
+    display:inline-block;
+    padding: 20px;
+}
+.containerimg {
+    display: flex;
+    justify-content: rigth;
+} */
