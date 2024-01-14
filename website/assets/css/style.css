@@ -5,9 +5,8 @@ body{
     display: flex;
 
 }
-
 .container {
-    margin-left: 50px;
+    margin-left: 100px;
 }
 .container-img {
     display: inline-block;
