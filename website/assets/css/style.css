@@ -32,15 +32,15 @@ span{
 }
 
 .heading2 {
-    width: 800px;
+    max-width: 800px;
 }
 
 .text2 {
-    width: 800px; 
+    max-width: 800px; 
 }
 
 .group2 {
-    width: 850px;
+    max-width: 850px;
     display:inline-block;
     padding: 20px;
 }
