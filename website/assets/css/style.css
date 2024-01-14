@@ -1,3 +1,51 @@
 body{
-    background: #BDBDBD;
+    background: white
+}
+.main-div {
+    display: flex;
+
+}
+.container {
+    margin-left: 100px;
+}
+.container-img {
+    display: inline-block;
+    margin-right: 160px;
+}
+#img2 {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    /* margin-top: 10px; */
+}
+.grey-letter {
+    color: grey;
+}
+
+
+
+.greycolor {
+    color: grey;
+}
+span{ 
+    color: black;
+}
+
+.heading2 {
+    max-width: 800px;
+}
+
+.text2 {
+    max-width: 800px; 
+}
+
+.group2 {
+    max-width: 850px;
+    display:inline-block;
+    padding: 20px;
+}
+.containerimg {
+    display: flex;
+    justify-content: center;
+    
 }
